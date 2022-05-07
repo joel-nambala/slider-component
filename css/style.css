@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f3f4f6;
+}
+
+.slides {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  width: 60%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  padding: 2rem 8rem;
+  background-color: hsl(0, 0%, 93%);
+  transition: all 0.8s ease;
+}
+
+.slide__message {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.slide__profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slide__profile img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+
+.slide__detail {
+  margin-right: auto;
+}
+
+.slide__detail p {
+  font-size: 1.8rem;
+}
+
+.slide__name {
+  margin-bottom: 1rem;
+}
+
+.btn {
+  font-size: 2rem;
+  background-color: hsl(233, 8%, 84%);
+  padding: 1rem;
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+}
+
+.btn-left {
+  left: 1rem;
+  top: 47%;
+}
+
+.btn-right {
+  right: 1rem;
+  top: 47%;
+}
+
+.moment {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 760px) {
+  .slides {
+    width: 90%;
+  }
+}

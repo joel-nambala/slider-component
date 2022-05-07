@@ -1,0 +1,22 @@
+{
+  "name": "slider-component",
+  "version": "1.0.0",
+  "description": "slide made with HTML, CSS and JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joel-nambala/slider-component.git"
+  },
+  "author": "joel nambala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joel-nambala/slider-component/issues"
+  },
+  "homepage": "https://github.com/joel-nambala/slider-component#readme",
+  "dependencies": {
+    "moment": "^2.29.3"
+  }
+}
